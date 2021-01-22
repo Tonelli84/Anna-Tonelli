@@ -145,3 +145,40 @@ li{
     font-weight: bold;
 }
 
+/* kontakt mig sidan */
+
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+form legend {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+input {
+    border-radius: 9px;
+    font-size: 16px;
+    height: 30px;
+}
+
+input textarea {
+    border-radius: 19px;
+    font-size: 16px;
+    height: 30px;
+}
+
+        
+    /* MOBILTELEFON och SMARTPHONE (portrait/stående)
+    @media only screen and (max-width: 768px){
+    #formular {
+    width: 90%;
+    } */
+    
