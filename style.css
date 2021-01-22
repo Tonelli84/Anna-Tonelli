@@ -92,17 +92,20 @@ h3 {
 /* Här kommer CSS för sida två Om mig */
 
 .heroett{
+    background-color: cornflowerblue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin: 20px;
+    padding: 4%;
 }
 
-.hero p {
-    width: 350px;
+.heroett p {
+    background-color: rgb(223, 108, 198);
     padding: 20px;
+    margin: 30px;
     font-size: 20px;
-    height: 3px;
 }
 
 .hero img{
@@ -110,9 +113,57 @@ h3 {
     padding: 50px;
 }
 
+.ommig{
+   background-color: rgb(189, 130, 228);
+}
+
+.ommig h3 {
+    font-size: 50px;
+    padding: 2px;
+    margin: auto;
+}
+
+/* .ommig p {
+    font-size: 15px;
+    padding: 15px;
+    margin: 20px;
+} */
+
+.ommig p{
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.ommigett {
+    margin: 10px;
+    padding: 40px;
+}
+
+.ommigett h3{
+    font-size: 50px;
+    padding: 2px;
+    margin: auto;
+}
+
+.ommigett ul{
+    background-color: rgb(97, 186, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 4%;
+}
+.ommigett li {
+    padding: 2%;
+    font-size: 15px;
+    margin: auto;
+}
+
 /* CV sidan */
 
-.CVBG{
+.CVBG {
     background-image: url(./IMG/BG.jpg);
     background-repeat: no-repeat;
     display: flex;
@@ -132,7 +183,6 @@ li{
 }
 
 /* kontakt mig sidan */
-
 
 form {
     display: flex;
