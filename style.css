@@ -204,12 +204,10 @@ form legend {
   margin: 10px;
   padding: 10px;
   font-size: 20px;
-  /* border-radius: 10px; */
   background-color: cadetblue;
 }
 
 input {
-  /* border-radius: 9px; */
   font-size: 25px;
   height: 30px;
 }
@@ -223,12 +221,23 @@ button {
   margin: 10px;
   padding: 10px;
   font-size: 20px;
-  /* border-radius: 10px; */
   background-color: rgb(166, 200, 201);
 }
 
-/* MOBILTELEFON och SMARTPHONE (portrait/stående)
-    @media only screen and (max-width: 768px){
-    #formular {
-    width: 90%;
-    } */
+/* Mobile  reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #f09a9d; /* Red */
+  }
+  h1 {
+    font-size: 72px;
+  }
+}
