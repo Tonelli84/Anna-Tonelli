@@ -18,7 +18,7 @@
         </nav>
     </section>
 
-        <form id="form" name="form" method="post" action=" ">
+        <form onsubmit=myFirstfunction(event) id="form" name="form">
 
                 <legend>Kontakta mig!</legend>
 
@@ -37,7 +37,9 @@
             <input type="checkbox" name="Nyhetsbrev" id="Ja" value="ja"/>
             <label for="ja">Jag önskar nyhetsbrev</label>  
 
-            <button onclick=myFirstfunction()>Skicka meddelande </button>
+          <input type="submit" value="Skicka meddelande">
+
+            <!-- <button onclick=myFirstfunction(event)>Skicka meddelande </button> -->
 
             </form>
 
