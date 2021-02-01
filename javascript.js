@@ -6,7 +6,7 @@ var formData = event.srcElement;
 
 var TackHeader = document.getElementById("Tack")
 
-TackHeader.innerText = "Tack för ditt meddelande. Länge leve du!" + formData.fnamn.value + "! Vi återkommer så fort vi kan!"; 
+TackHeader.innerText = "Tack " + formData.fnamn.value + " för ditt meddelande. Länge leve du! Vi återkommer så fort vi kan!"; 
 
 console.log(formData.fnamn.value); 
 console.log(formData.enamn.value); 
